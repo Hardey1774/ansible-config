@@ -30,6 +30,7 @@
   hosts: webservers, nfs, db, lb
   become: yes
   tasks:
+    - 
 
     - name: create a directory
       file :
